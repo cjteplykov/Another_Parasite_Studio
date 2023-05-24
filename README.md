@@ -1,2 +1,2 @@
-# Another_Parasite_Studio
+## Another Parasite Studio
 Official Site
