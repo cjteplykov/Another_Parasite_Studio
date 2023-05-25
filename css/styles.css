@@ -11166,7 +11166,18 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
+@media (min-width: 360px){
+  .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
 @media (min-width: 768px) {
+  .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
   .timeline:before {
     left: 50%;
   }
@@ -11198,6 +11209,10 @@ header.masthead .masthead-heading {
   }
 }
 @media (min-width: 992px) {
+  .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
   .timeline > li {
     min-height: 150px;
   }
@@ -11219,6 +11234,10 @@ header.masthead .masthead-heading {
   }
 }
 @media (min-width: 1200px) {
+  .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
   .timeline > li {
     min-height: 170px;
   }
